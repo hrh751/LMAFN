@@ -1,2 +1,8 @@
 # LMAFN
 NAS-guided Lightweight Multiscale Attention Fusion Network for Hyperspectral Image Classification
+
+# Abstract
+Deep learning has become a hot topic in the research field of hyperspectral image (HSI) classification. However, with the increasing depth and size of deep learning methods, its appli- cation in mobile and embedded vision applications has brought great challenges. In this paper, we address a network architecture search (NAS) guided lightweight spectral-spatial attention feature fusion framework (LMAFN) for HSI classification. The overall architecture of the proposed network is guided by several conclusion of NAS, which achieves fewer parameters and lower computation cost with deeper network structure by exploiting multiscale Ghost grouped with efficient channel attention (ECA) module for adaptively adjusting the weights of different channels, it helps fully extract spectral-spatial discriminant features to avoid information loss of the dimension reduction operation. Specifically, a multi-layer feature fusion method is proposed to extract the fusion information of the spectral-spatial features of each layer by considering complementary information of different hierarchical structures. Therefore, high-lever spectral- spatial attributes are gradually exploited along with the increase of layers and the fusion of layers. The experimental verification on three real HSI data sets demonstrates that the proposed framework presents more satisfying classification accuracy and performance with deeper network structure and lower parameter size.
+
+# Dataset
+Indian Pines (IN); University of Pavia (UP); Houston University (HU)
